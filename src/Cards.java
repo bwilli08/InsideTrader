@@ -6,8 +6,6 @@
  * Type = 3 are Augmentation cards
  */
 
-import java.util.*;
-
 public class Cards
 {
 	private int type;
