@@ -8,8 +8,8 @@
 
 public class Cards
 {
-	private int type;
-	private int cardEffect;
+	public final int type;
+	public final int cardEffect;
 	
 	/*
 	 * Default Constructor, creates an invalid card
