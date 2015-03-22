@@ -18,6 +18,7 @@ public class Player
 	 * Exception class for possible Exceptions thrown
 	 * Might not be needed
 	 */
+	@SuppressWarnings("serial")
 	public static class InvalidHandException extends RuntimeException
 	{
 		public InvalidHandException() { super(); }

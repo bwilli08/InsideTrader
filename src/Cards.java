@@ -49,6 +49,7 @@ public class Cards
 	 * Exception class for when an invalid card is used.
 	 * Might not be needed
 	 */
+	@SuppressWarnings("serial")
 	public static class InvalidCardTypeException extends RuntimeException
 	{
 		public InvalidCardTypeException() { super(); }
